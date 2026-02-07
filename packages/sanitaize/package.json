@@ -1,34 +1,34 @@
 {
-  "name": "sanitaize",
-  "version": "0.1.0",
-  "description": "AI firewall for sanitizing LLM inputs and outputs",
-  "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch"
-  },
-  "devDependencies": {
-    "@types/node": "^22.0.0",
-    "tsup": "^8.0.0",
-    "typescript": "^5.4.0"
-  },
-  "keywords": [
-    "ai",
-    "llm",
-    "firewall",
-    "security"
-  ],
-  "license": "MIT"
+	"name": "sanitaize",
+	"version": "0.1.0",
+	"description": "AI firewall for sanitizing LLM inputs and outputs",
+	"type": "module",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup",
+		"dev": "tsup --watch"
+	},
+	"devDependencies": {
+		"@types/node": "^22.0.0",
+		"tsup": "^8.0.0",
+		"typescript": "^5.4.0"
+	},
+	"keywords": [
+		"ai",
+		"llm",
+		"firewall",
+		"security"
+	],
+	"license": "MIT"
 }
