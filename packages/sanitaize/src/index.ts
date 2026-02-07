@@ -1,2 +1,7 @@
-export { judge } from "./judge.js";
-export type { SanitaizeConfig, JudgeInput, JudgeVerdict } from "./types.js";
+export { judge } from "./judge/judge";
+export type {
+  JudgeConfig,
+  JudgeResponse,
+  ExpectedOutput,
+  RiskTolerance,
+} from "./types.js";
