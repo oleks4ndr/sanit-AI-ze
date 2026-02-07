@@ -30,5 +30,8 @@
 		"firewall",
 		"security"
 	],
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^17.2.4"
+	}
 }
