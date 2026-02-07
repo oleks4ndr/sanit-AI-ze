@@ -41,7 +41,7 @@ export default function Home() {
 	};
 
 	return (
-		<div className="flex min-h-screen items-start justify-center bg-gradient-to-b from-black via-gray-900 to-black">
+		<div className="flex min-h-screen items-start justify-center bg-linear-to-b from-black via-gray-900 to-black">
 			<main className="flex flex-col items-center w-full max-w-5xl px-8 py-20">
 				<Logo />
 				<PromptInput onSubmit={handleSubmit} isLoading={isLoading} />

@@ -57,7 +57,7 @@ export function ResultDisplay({ prompt, result }: ResultDisplayProps) {
 							Input Received
 						</h3>
 						<div className="bg-gray-900/60 border border-gray-700/50 rounded-xl p-5 backdrop-blur-sm shadow-lg">
-							<p className="text-gray-300 text-sm leading-relaxed break-words">
+							<p className="text-gray-300 text-sm leading-relaxed wrap-break-words">
 								{prompt}
 							</p>
 						</div>

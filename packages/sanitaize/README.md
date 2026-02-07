@@ -37,7 +37,7 @@ const llmResponse = await yourLLM.generate(userPrompt);
 const outputVerdict = await sanitaize.judgeOutput(llmResponse);
 
 if (outputVerdict.verdict === "block") {
-	console.log("🚫 Policy violation in output:", outputVerdict.reasons);
+	console.log("Policy violation in output:", outputVerdict.reasons);
 	return { error: "Response blocked by firewall" };
 }
 
