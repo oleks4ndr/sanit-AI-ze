@@ -15,9 +15,9 @@ export interface ExpectedOutput {
 }
 
 export interface JudgeResponse {
-  risk_score: Float32Array; // 0..1
+  risk_score: number; // 0..1
   risk_level: "low" | "medium" | "high";
-  confidence: Float32Array; // 0..1
+  confidence: number; // 0..1
   verdict: "allow" | "block";
   attack_types: string[];
   reasons: string[];
